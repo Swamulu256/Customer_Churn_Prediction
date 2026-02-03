@@ -20,7 +20,22 @@ The pipeline intelligently selects the best technique at every stage (missing va
 
 💾 Saves deployment-ready artifacts
 
-🗂️ Project Structure ├── main.py ├── Visualization.py ├── missing_values.py ├── variable_transformation_technique.py ├── outliers_techniques.py ├── cat_to_num_Techniques.py ├── Feature_Selection_Techniques.py ├── Data_Balancing.py ├── Model_techniques.py ├── log_file.py ├── WA_Fn-UseC_-Telco-Customer-Churn.csv ├── churn_artifacts.pkl ├── scaler_path.pkl ├── final_features.pkl └── README.md
+🗂️ Project Structure
+├── main.py
+├── Visualization.py
+├── missing_values.py
+├── variable_transformation_technique.py
+├── outliers_techniques.py
+├── cat_to_num_Techniques.py
+├── Feature_Selection_Techniques.py
+├── Data_Balancing.py
+├── Model_techniques.py
+├── log_file.py
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── churn_artifacts.pkl
+├── scaler_path.pkl
+├── final_features.pkl
+└── README.md
 
 📊 Exploratory Data Analysis (EDA)
 
@@ -46,7 +61,8 @@ Payment Method vs Churn
 
 📌 These plots help understand customer behavior and churn drivers before modeling.
 
-🔄 Machine Learning Pipeline 1️⃣ Data Loading & Preparation
+🔄 Machine Learning Pipeline
+1️⃣ Data Loading & Preparation
 
 Reads Telco churn dataset
 
@@ -142,7 +158,8 @@ Lasso
 
 Tree-based Selection
 
-🏆 The technique selecting optimal minimum features is applied. 📁 Final selected features are saved as final_features.pkl.
+🏆 The technique selecting optimal minimum features is applied.
+📁 Final selected features are saved as final_features.pkl.
 
 7️⃣ Data Balancing
 
@@ -215,3 +232,4 @@ Random Forest → GridSearchCV
 ✅ Scaler
 
 ✅ ROC-AUC performance
+

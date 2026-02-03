@@ -1,0 +1,832 @@
+2026-02-03 09:35:34,045 - variable_transformation_technique - INFO - standard_scaling started
+2026-02-03 09:35:34,048 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,052 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,052 - variable_transformation_technique - INFO - standard_scaling Completed
+2026-02-03 09:35:34,061 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772      -0.437749
+5191      -0.437749
+5226      -0.437749
+5390       2.284413
+860       -0.437749
+2026-02-03 09:35:34,064 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366      -0.437749
+315       -0.437749
+2439      -0.437749
+5002      -0.437749
+1161      -0.437749
+2026-02-03 09:35:34,064 - variable_transformation_technique - INFO - MinMax Scaling started
+2026-02-03 09:35:34,069 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,072 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,072 - variable_transformation_technique - INFO - MinMax Scaling Completed
+2026-02-03 09:35:34,080 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772            0.0
+5191            0.0
+5226            0.0
+5390            1.0
+860             0.0
+2026-02-03 09:35:34,084 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366            0.0
+315             0.0
+2439            0.0
+5002            0.0
+1161            0.0
+2026-02-03 09:35:34,084 - variable_transformation_technique - INFO - robust_scaling started
+2026-02-03 09:35:34,088 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,090 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,095 - variable_transformation_technique - INFO - robust_scaling Completed
+2026-02-03 09:35:34,099 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772            0.0
+5191            0.0
+5226            0.0
+5390            1.0
+860             0.0
+2026-02-03 09:35:34,103 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366            0.0
+315             0.0
+2439            0.0
+5002            0.0
+1161            0.0
+2026-02-03 09:35:34,104 - variable_transformation_technique - INFO - log_transform started
+2026-02-03 09:35:34,107 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,110 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,111 - variable_transformation_technique - INFO - log_transform completed
+2026-02-03 09:35:34,116 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772       0.000000
+5191       0.000000
+5226       0.000000
+5390       0.693147
+860        0.000000
+2026-02-03 09:35:34,120 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366            0.0
+315             0.0
+2439            0.0
+5002            0.0
+1161            0.0
+2026-02-03 09:35:34,120 - variable_transformation_technique - INFO - power_transform started
+2026-02-03 09:35:34,129 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,135 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,167 - variable_transformation_technique - INFO - power_transform Completed
+2026-02-03 09:35:34,172 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772      -0.437749
+5191      -0.437749
+5226      -0.437749
+5390       2.284413
+860       -0.437749
+2026-02-03 09:35:34,185 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366      -0.437749
+315       -0.437749
+2439      -0.437749
+5002      -0.437749
+1161      -0.437749
+2026-02-03 09:35:34,186 - variable_transformation_technique - INFO - boxcox_transform started
+2026-02-03 09:35:34,195 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,204 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,204 - variable_transformation_technique - INFO - boxcox_transform completed
+2026-02-03 09:35:34,216 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,219 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,219 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:34,234 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,244 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,253 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:34,272 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772      -5.199338
+5191      -5.199338
+5226      -5.199338
+5390       5.199338
+860       -5.199338
+2026-02-03 09:35:34,278 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366      -5.199338
+315       -5.199338
+2439      -5.199338
+5002      -5.199338
+1161      -5.199338
+2026-02-03 09:35:34,282 - variable_transformation_technique - INFO - log_transform started
+2026-02-03 09:35:34,286 - variable_transformation_technique - INFO - Before X_train Data :       SeniorCitizen
+3772              0
+5191              0
+5226              0
+5390              1
+860               0
+2026-02-03 09:35:34,291 - variable_transformation_technique - INFO - Before X_test Data :       SeniorCitizen
+6366              0
+315               0
+2439              0
+5002              0
+1161              0
+2026-02-03 09:35:34,291 - variable_transformation_technique - INFO - log_transform completed
+2026-02-03 09:35:34,298 - variable_transformation_technique - INFO - After X_train Data :       SeniorCitizen
+3772       0.000000
+5191       0.000000
+5226       0.000000
+5390       0.693147
+860        0.000000
+2026-02-03 09:35:34,302 - variable_transformation_technique - INFO - After X_test Data :       SeniorCitizen
+6366            0.0
+315             0.0
+2439            0.0
+5002            0.0
+1161            0.0
+2026-02-03 09:35:34,302 - variable_transformation_technique - INFO - standard_scaling started
+2026-02-03 09:35:34,318 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,325 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,334 - variable_transformation_technique - INFO - standard_scaling Completed
+2026-02-03 09:35:34,345 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772 -1.284605
+5191 -0.383791
+5226 -0.834198
+5390 -0.834198
+860  -0.260953
+2026-02-03 09:35:34,353 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  1.294997
+315   0.762699
+2439 -0.629468
+5002  1.499728
+1161 -1.284605
+2026-02-03 09:35:34,353 - variable_transformation_technique - INFO - MinMax Scaling started
+2026-02-03 09:35:34,370 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,376 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,384 - variable_transformation_technique - INFO - MinMax Scaling Completed
+2026-02-03 09:35:34,395 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772  0.013889
+5191  0.319444
+5226  0.166667
+5390  0.166667
+860   0.361111
+2026-02-03 09:35:34,405 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  0.888889
+315   0.708333
+2439  0.236111
+5002  0.958333
+1161  0.013889
+2026-02-03 09:35:34,405 - variable_transformation_technique - INFO - robust_scaling started
+2026-02-03 09:35:34,418 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,425 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,432 - variable_transformation_technique - INFO - robust_scaling Completed
+2026-02-03 09:35:34,437 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772 -0.608696
+5191 -0.130435
+5226 -0.369565
+5390 -0.369565
+860  -0.065217
+2026-02-03 09:35:34,442 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  0.760870
+315   0.478261
+2439 -0.260870
+5002  0.869565
+1161 -0.608696
+2026-02-03 09:35:34,448 - variable_transformation_technique - INFO - log_transform started
+2026-02-03 09:35:34,451 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,454 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,454 - variable_transformation_technique - INFO - log_transform completed
+2026-02-03 09:35:34,457 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772  0.693147
+5191  3.178054
+5226  2.564949
+5390  2.564949
+860   3.295837
+2026-02-03 09:35:34,461 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  4.174387
+315   3.951244
+2439  2.890372
+5002  4.248495
+1161  0.693147
+2026-02-03 09:35:34,463 - variable_transformation_technique - INFO - power_transform started
+2026-02-03 09:35:34,466 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,470 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,480 - variable_transformation_technique - INFO - power_transform Completed
+2026-02-03 09:35:34,483 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772 -1.654653
+5191 -0.126689
+5226 -0.674382
+5390 -0.674382
+860  -0.003000
+2026-02-03 09:35:34,486 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  1.159455
+315   0.819262
+2439 -0.402561
+5002  1.280224
+1161 -1.654653
+2026-02-03 09:35:34,486 - variable_transformation_technique - INFO - boxcox_transform started
+2026-02-03 09:35:34,490 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,492 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,492 - variable_transformation_technique - INFO - boxcox_transform completed
+2026-02-03 09:35:34,496 - variable_transformation_technique - INFO - After X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,498 - variable_transformation_technique - INFO - After X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,498 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:34,502 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,505 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,511 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:34,515 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772 -1.705570
+5191 -0.163824
+5226 -0.523537
+5390 -0.523537
+860  -0.074087
+2026-02-03 09:35:34,516 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  0.997920
+315   0.552537
+2439 -0.344154
+5002  1.307063
+1161 -1.705570
+2026-02-03 09:35:34,516 - variable_transformation_technique - INFO - robust_scaling started
+2026-02-03 09:35:34,521 - variable_transformation_technique - INFO - Before X_train Data :       tenure
+3772       1
+5191      23
+5226      12
+5390      12
+860       26
+2026-02-03 09:35:34,523 - variable_transformation_technique - INFO - Before X_test Data :       tenure
+6366      64
+315       51
+2439      17
+5002      69
+1161       1
+2026-02-03 09:35:34,523 - variable_transformation_technique - INFO - robust_scaling Completed
+2026-02-03 09:35:34,529 - variable_transformation_technique - INFO - After X_train Data :         tenure
+3772 -0.608696
+5191 -0.130435
+5226 -0.369565
+5390 -0.369565
+860  -0.065217
+2026-02-03 09:35:34,531 - variable_transformation_technique - INFO - After X_test Data :         tenure
+6366  0.760870
+315   0.478261
+2439 -0.260870
+5002  0.869565
+1161 -0.608696
+2026-02-03 09:35:34,531 - variable_transformation_technique - INFO - standard_scaling started
+2026-02-03 09:35:34,535 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,537 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,537 - variable_transformation_technique - INFO - standard_scaling Completed
+2026-02-03 09:35:34,543 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        1.001632
+5191        0.872006
+5226       -1.452945
+5390        1.149538
+860        -1.497815
+2026-02-03 09:35:34,546 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366        0.114195
+315         1.501854
+2439       -1.494492
+5002       -0.695134
+1161       -1.113924
+2026-02-03 09:35:34,546 - variable_transformation_technique - INFO - MinMax Scaling started
+2026-02-03 09:35:34,549 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,552 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,552 - variable_transformation_technique - INFO - MinMax Scaling Completed
+2026-02-03 09:35:34,559 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        0.764823
+5191        0.725959
+5226        0.028899
+5390        0.809168
+860         0.015446
+2026-02-03 09:35:34,562 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366        0.498754
+315         0.914798
+2439        0.016442
+5002        0.256104
+1161        0.130543
+2026-02-03 09:35:34,564 - variable_transformation_technique - INFO - robust_scaling started
+2026-02-03 09:35:34,568 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,571 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,572 - variable_transformation_technique - INFO - robust_scaling Completed
+2026-02-03 09:35:34,577 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        0.451672
+5191        0.379700
+5226       -0.911188
+5390        0.533795
+860        -0.936101
+2026-02-03 09:35:34,581 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366       -0.041061
+315         0.729412
+2439       -0.934256
+5002       -0.490427
+1161       -0.722953
+2026-02-03 09:35:34,582 - variable_transformation_technique - INFO - log_transform started
+2026-02-03 09:35:34,586 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,589 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,589 - variable_transformation_technique - INFO - log_transform completed
+2026-02-03 09:35:34,591 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        4.564348
+5191        4.522875
+5226        3.097837
+5390        4.609660
+860         3.034953
+2026-02-03 09:35:34,596 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366        4.238445
+315         4.709981
+2439        3.039749
+5002        3.805551
+1161        3.476614
+2026-02-03 09:35:34,596 - variable_transformation_technique - INFO - power_transform started
+2026-02-03 09:35:34,601 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,602 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,613 - variable_transformation_technique - INFO - power_transform Completed
+2026-02-03 09:35:34,617 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        0.996486
+5191        0.871073
+5226       -1.466939
+5390        1.139170
+860        -1.514882
+2026-02-03 09:35:34,620 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366        0.130128
+315         1.477370
+2439       -1.511324
+5002       -0.680031
+1161       -1.110306
+2026-02-03 09:35:34,622 - variable_transformation_technique - INFO - boxcox_transform started
+2026-02-03 09:35:34,625 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,628 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,739 - variable_transformation_technique - INFO - boxcox_transform completed
+2026-02-03 09:35:34,747 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772       71.888403
+5191       69.113365
+5226       17.103589
+5390       75.044378
+860        16.027367
+2026-02-03 09:35:34,755 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366       52.695902
+315        82.520233
+2439       16.107272
+5002       34.688015
+1161       25.088763
+2026-02-03 09:35:34,758 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:34,768 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,775 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,789 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:34,800 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        0.893908
+5191        0.744694
+5226       -0.972106
+5390        1.088723
+860        -1.509656
+2026-02-03 09:35:34,807 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366       -0.096336
+315         1.890244
+2439       -1.421556
+5002       -0.603390
+1161       -0.711139
+2026-02-03 09:35:34,811 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:34,819 - variable_transformation_technique - INFO - Before X_train Data :       MonthlyCharges
+3772           95.00
+5191           91.10
+5226           21.15
+5390           99.45
+860            19.80
+2026-02-03 09:35:34,834 - variable_transformation_technique - INFO - Before X_test Data :       MonthlyCharges
+6366           68.30
+315           110.05
+2439           19.90
+5002           43.95
+1161           31.35
+2026-02-03 09:35:34,856 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:34,866 - variable_transformation_technique - INFO - After X_train Data :       MonthlyCharges
+3772        0.893908
+5191        0.744694
+5226       -0.972106
+5390        1.088723
+860        -1.509656
+2026-02-03 09:35:34,877 - variable_transformation_technique - INFO - After X_test Data :       MonthlyCharges
+6366       -0.096336
+315         1.890244
+2439       -1.421556
+5002       -0.603390
+1161       -0.711139
+2026-02-03 09:35:34,881 - variable_transformation_technique - INFO - standard_scaling started
+2026-02-03 09:35:34,885 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:34,900 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:34,913 - variable_transformation_technique - INFO - standard_scaling Completed
+2026-02-03 09:35:34,922 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772     -0.968697
+5191     -0.039251
+5226     -0.875434
+5390     -0.480333
+860      -0.808597
+2026-02-03 09:35:34,925 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      0.924309
+315       1.502136
+2439     -0.864961
+5002      0.297387
+1161     -0.996824
+2026-02-03 09:35:34,936 - variable_transformation_technique - INFO - MinMax Scaling started
+2026-02-03 09:35:34,945 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:34,955 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:34,965 - variable_transformation_technique - INFO - MinMax Scaling Completed
+2026-02-03 09:35:34,967 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772      0.008793
+5191      0.251500
+5226      0.033147
+5390      0.136320
+860       0.050600
+2026-02-03 09:35:34,975 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      0.503116
+315       0.654004
+2439      0.035882
+5002      0.339407
+1161      0.001448
+2026-02-03 09:35:34,987 - variable_transformation_technique - INFO - robust_scaling started
+2026-02-03 09:35:34,995 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,005 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,015 - variable_transformation_technique - INFO - robust_scaling Completed
+2026-02-03 09:35:35,025 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772     -0.385447
+5191      0.233109
+5226     -0.323380
+5390     -0.060435
+860      -0.278899
+2026-02-03 09:35:35,027 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      0.874369
+315       1.258919
+2439     -0.316410
+5002      0.457146
+1161     -0.404166
+2026-02-03 09:35:35,034 - variable_transformation_technique - INFO - log_transform started
+2026-02-03 09:35:35,045 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,055 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,061 - variable_transformation_technique - INFO - log_transform completed
+2026-02-03 09:35:35,065 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772      4.564348
+5191      7.695894
+5226      5.727011
+5390      7.091035
+860       6.127524
+2026-02-03 09:35:35,080 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      8.384758
+315       8.646008
+2439      5.801363
+5002      7.993316
+1161      3.476614
+2026-02-03 09:35:35,084 - variable_transformation_technique - INFO - power_transform started
+2026-02-03 09:35:35,094 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,107 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,147 - variable_transformation_technique - INFO - power_transform Completed
+2026-02-03 09:35:35,159 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772     -1.439514
+5191      0.374857
+5226     -0.927848
+5390     -0.097165
+860      -0.713239
+2026-02-03 09:35:35,170 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      1.009454
+315       1.280950
+2439     -0.889653
+5002      0.635182
+1161     -1.798221
+2026-02-03 09:35:35,177 - variable_transformation_technique - INFO - boxcox_transform started
+2026-02-03 09:35:35,188 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,199 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,416 - variable_transformation_technique - INFO - boxcox_transform completed
+2026-02-03 09:35:35,421 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772      8.657908
+5191     24.266873
+5226     13.064157
+5390     20.206597
+860      14.909511
+2026-02-03 09:35:35,426 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366     29.728978
+315      32.066989
+2439     13.392627
+5002     26.507066
+1161      5.544446
+2026-02-03 09:35:35,427 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:35,434 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,438 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,449 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:35,453 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772     -1.218230
+5191      0.285781
+5226     -0.791398
+5390     -0.112459
+860      -0.622217
+2026-02-03 09:35:35,458 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      0.820247
+315       1.171230
+2439     -0.764380
+5002      0.477802
+1161     -1.888356
+2026-02-03 09:35:35,458 - variable_transformation_technique - INFO - quantile_transform started
+2026-02-03 09:35:35,466 - variable_transformation_technique - INFO - Before X_train Data :       TotalCharges
+3772         95.00
+5191       2198.30
+5226        306.05
+5390       1200.15
+860         457.30
+2026-02-03 09:35:35,467 - variable_transformation_technique - INFO - Before X_test Data :       TotalCharges
+6366       4378.80
+315        5686.40
+2439        329.75
+5002       2960.10
+1161         31.35
+2026-02-03 09:35:35,478 - variable_transformation_technique - INFO - quantile_transform Completed
+2026-02-03 09:35:35,490 - variable_transformation_technique - INFO - After X_train Data :       TotalCharges
+3772     -1.218230
+5191      0.285781
+5226     -0.791398
+5390     -0.112459
+860      -0.622217
+2026-02-03 09:35:35,498 - variable_transformation_technique - INFO - After X_test Data :       TotalCharges
+6366      0.820247
+315       1.171230
+2439     -0.764380
+5002      0.477802
+1161     -1.888356

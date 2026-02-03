@@ -1,0 +1,40 @@
+2026-02-03 09:35:33,984 - missing_values - INFO - Mean imputation for missing values
+2026-02-03 09:35:33,987 - missing_values - INFO - Before imputation X_train: TotalCharges    10
+dtype: int64
+2026-02-03 09:35:33,990 - missing_values - INFO - Before imputation X_test: TotalCharges    1
+dtype: int64
+2026-02-03 09:35:33,991 - missing_values - INFO - Mean imputation completed
+2026-02-03 09:35:33,991 - missing_values - INFO - After imputation X_train: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:33,992 - missing_values - INFO - After imputation X_test: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:33,996 - missing_values - INFO - Median imputation for missing values
+2026-02-03 09:35:33,997 - missing_values - INFO - Before imputation X_train: TotalCharges    10
+dtype: int64
+2026-02-03 09:35:33,998 - missing_values - INFO - Before imputation X_test: TotalCharges    1
+dtype: int64
+2026-02-03 09:35:33,999 - missing_values - INFO - Median imputation completed
+2026-02-03 09:35:34,001 - missing_values - INFO - After imputation X_train: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:34,002 - missing_values - INFO - After imputation X_test: TotalCharges    3172126.0
+dtype: float64
+2026-02-03 09:35:34,004 - missing_values - INFO - Mode imputation for missing values
+2026-02-03 09:35:34,005 - missing_values - INFO - Before imputation X_train: TotalCharges    10
+dtype: int64
+2026-02-03 09:35:34,005 - missing_values - INFO - Before imputation X_test: TotalCharges    1
+dtype: int64
+2026-02-03 09:35:34,005 - missing_values - INFO - Mode imputation completed
+2026-02-03 09:35:34,005 - missing_values - INFO - After imputation X_train: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:34,009 - missing_values - INFO - After imputation X_test: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:34,014 - missing_values - INFO - Mode imputation for missing values
+2026-02-03 09:35:34,014 - missing_values - INFO - Before imputation X_train: TotalCharges    10
+dtype: int64
+2026-02-03 09:35:34,024 - missing_values - INFO - Before imputation X_test: TotalCharges    1
+dtype: int64
+2026-02-03 09:35:34,025 - missing_values - INFO - Mode imputation completed
+2026-02-03 09:35:34,027 - missing_values - INFO - After imputation X_train: TotalCharges    0
+dtype: int64
+2026-02-03 09:35:34,028 - missing_values - INFO - After imputation X_test: TotalCharges    0
+dtype: int64

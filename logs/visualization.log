@@ -1,0 +1,42 @@
+2026-02-03 09:31:15,844 - Visualization - INFO - Plotting gender vs churn
+2026-02-03 09:34:47,518 - Visualization - INFO - Plotting churn distribution
+2026-02-03 09:34:49,323 - Visualization - INFO - Plotting tenure vs churn
+2026-02-03 09:34:51,546 - Visualization - INFO - Plotting monthly charges vs churn
+2026-02-03 09:34:53,259 - Visualization - INFO - Plotting SeniorCitizen vs churn
+2026-02-03 09:34:53,301 - Visualization - INFO - Senior_Gender vs Churn :
+     telecom_partner  gender  SeniorCitizen Partner Dependents  ...  PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn
+20               Jio    Male              1      No         No  ...               Yes           Electronic check          39.65        39.65     1
+30          Vodafone  Female              1     Yes         No  ...               Yes    Credit card (automatic)          96.35      6766.95     0
+31               Jio    Male              1     Yes         No  ...               Yes    Credit card (automatic)          95.50       181.65     0
+34              BSNL    Male              1      No         No  ...                No  Bank transfer (automatic)          45.25        45.25     0
+50          Vodafone  Female              1      No         No  ...               Yes           Electronic check          90.25      3838.75     0
+...              ...     ...            ...     ...        ...  ...               ...                        ...            ...          ...   ...
+7023        Vodafone  Female              1     Yes         No  ...               Yes           Electronic check         103.50      6479.40     0
+7029        Vodafone  Female              1      No         No  ...               Yes           Electronic check          44.40       263.05     0
+7031            BSNL    Male              1     Yes         No  ...                No    Credit card (automatic)          60.00      3316.10     0
+7032             Jio    Male              1      No         No  ...               Yes           Electronic check          75.75        75.75     1
+7041             Jio    Male              1     Yes         No  ...               Yes               Mailed check          74.40       306.60     1
+
+[1142 rows x 21 columns]
+2026-02-03 09:34:54,787 - Visualization - INFO - Plotting Internet Service vs Gender
+2026-02-03 09:34:54,806 - Visualization - INFO - Internet Service vs Gender Crosstab:
+gender           Female  Male
+InternetService              
+DSL                1188  1233
+Fiber optic        1553  1543
+No                  747   779
+2026-02-03 09:34:56,417 - Visualization - INFO - Plotting Contract vs Churn
+2026-02-03 09:34:56,432 - Visualization - INFO - Contract vs Churn Crosstab:
+Churn              0     1
+Contract                  
+Month-to-month  2220  1655
+One year        1307   166
+Two year        1647    48
+2026-02-03 09:34:58,253 - Visualization - INFO - Plotting TelecomPartner vs Churn
+2026-02-03 09:34:58,274 - Visualization - INFO - TelecomPartner vs Churn Crosstab:
+Churn               0    1
+telecom_partner           
+Airtel           1267  462
+BSNL             1312  443
+Jio              1261  474
+Vodafone         1334  490

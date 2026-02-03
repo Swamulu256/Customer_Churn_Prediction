@@ -1,0 +1,4571 @@
+2026-02-03 09:35:35,673 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:35,682 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,691 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,698 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:35,708 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,718 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,722 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:35,732 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,740 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,749 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:35,760 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,770 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,770 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:35,770 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:35,780 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,792 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,792 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:35,802 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,810 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,810 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:35,819 - cat_to_num_Techniques - INFO - Before X_train:      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+2026-02-03 09:35:35,830 - cat_to_num_Techniques - INFO - Before X_test:      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+2026-02-03 09:35:35,861 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:35,869 - cat_to_num_Techniques - INFO - After X_train:       telecom_partner_0  telecom_partner_1  telecom_partner_2
+2142                  0                  0                  1
+1623                  0                  0                  1
+6074                  0                  0                  1
+1362                  0                  1                  0
+6754                  0                  1                  0
+2026-02-03 09:35:35,871 - cat_to_num_Techniques - INFO - After X_test:       telecom_partner_0  telecom_partner_1  telecom_partner_2
+185                   1                  0                  0
+2715                  1                  0                  0
+3825                  0                  0                  1
+1807                  1                  0                  0
+132                   0                  1                  1
+2026-02-03 09:35:35,871 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:35,880 - cat_to_num_Techniques - INFO - Before X_train:      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+2026-02-03 09:35:35,885 - cat_to_num_Techniques - INFO - Before X_test:      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+2026-02-03 09:35:35,885 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:35,890 - cat_to_num_Techniques - INFO - After X_train:      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+2026-02-03 09:35:35,894 - cat_to_num_Techniques - INFO - After X_test:      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+2026-02-03 09:35:35,894 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:35,898 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,901 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,901 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:35,905 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      telecom_partner
+2142          Airtel
+1623          Airtel
+6074          Airtel
+1362        Vodafone
+6754        Vodafone
+...              ...
+3772        Vodafone
+5191          Airtel
+5226        Vodafone
+5390            BSNL
+860             BSNL
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,907 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      telecom_partner
+185             BSNL
+2715            BSNL
+3825          Airtel
+1807            BSNL
+132              Jio
+...              ...
+6366            BSNL
+315             BSNL
+2439             Jio
+5002             Jio
+1161        Vodafone
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,910 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:35,911 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,915 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,919 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:35,920 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,927 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,928 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:35,931 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,935 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,935 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:35,940 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,943 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,943 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to positional indexers are out-of-bounds
+2026-02-03 09:35:35,943 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:35,949 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,952 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,952 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:35,958 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:35,961 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:35,961 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:35,964 - cat_to_num_Techniques - INFO - Before X_train:       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+2026-02-03 09:35:35,967 - cat_to_num_Techniques - INFO - Before X_test:       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+2026-02-03 09:35:35,980 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:35,982 - cat_to_num_Techniques - INFO - After X_train:       gender_0  gender_1
+2142         0         1
+1623         0         1
+6074         1         0
+1362         1         0
+6754         1         0
+2026-02-03 09:35:35,984 - cat_to_num_Techniques - INFO - After X_test:       gender_0  gender_1
+185          0         1
+2715         1         0
+3825         0         1
+1807         0         1
+132          1         0
+2026-02-03 09:35:35,984 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:35,988 - cat_to_num_Techniques - INFO - Before X_train:       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+2026-02-03 09:35:35,991 - cat_to_num_Techniques - INFO - Before X_test:       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+2026-02-03 09:35:35,991 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:35,993 - cat_to_num_Techniques - INFO - After X_train:       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+2026-02-03 09:35:35,997 - cat_to_num_Techniques - INFO - After X_test:       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+2026-02-03 09:35:35,998 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,001 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,004 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,004 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,008 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of       gender
+2142  Female
+1623  Female
+6074    Male
+1362    Male
+6754    Male
+...      ...
+3772    Male
+5191  Female
+5226    Male
+5390    Male
+860     Male
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,012 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of       gender
+185   Female
+2715    Male
+3825  Female
+1807  Female
+132     Male
+...      ...
+6366  Female
+315     Male
+2439    Male
+5002  Female
+1161    Male
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,012 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,017 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,020 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,021 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,024 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,028 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,029 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,031 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,035 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,035 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,039 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,041 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,043 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to positional indexers are out-of-bounds
+2026-02-03 09:35:36,043 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,045 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,049 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,050 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,054 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,055 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,055 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,059 - cat_to_num_Techniques - INFO - Before X_train:      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+2026-02-03 09:35:36,062 - cat_to_num_Techniques - INFO - Before X_test:      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+2026-02-03 09:35:36,071 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,076 - cat_to_num_Techniques - INFO - After X_train:       Partner_0  Partner_1
+2142          0          1
+1623          0          1
+6074          1          0
+1362          0          1
+6754          0          1
+2026-02-03 09:35:36,078 - cat_to_num_Techniques - INFO - After X_test:       Partner_0  Partner_1
+185           1          0
+2715          0          1
+3825          1          0
+1807          0          1
+132           0          1
+2026-02-03 09:35:36,079 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,081 - cat_to_num_Techniques - INFO - Before X_train:      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+2026-02-03 09:35:36,083 - cat_to_num_Techniques - INFO - Before X_test:      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+2026-02-03 09:35:36,083 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,086 - cat_to_num_Techniques - INFO - After X_train:      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+2026-02-03 09:35:36,088 - cat_to_num_Techniques - INFO - After X_test:      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+2026-02-03 09:35:36,088 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,093 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,094 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,094 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,100 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      Partner
+2142      No
+1623      No
+6074     Yes
+1362      No
+6754      No
+...      ...
+3772     Yes
+5191     Yes
+5226     Yes
+5390      No
+860       No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,101 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      Partner
+185      Yes
+2715      No
+3825     Yes
+1807      No
+132       No
+...      ...
+6366     Yes
+315      Yes
+2439     Yes
+5002     Yes
+1161      No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,101 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,109 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,111 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,114 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,117 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,119 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,120 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,124 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,128 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,128 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,133 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,135 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,135 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to positional indexers are out-of-bounds
+2026-02-03 09:35:36,135 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,141 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,144 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,146 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,148 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,152 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,153 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,155 - cat_to_num_Techniques - INFO - Before X_train:      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+2026-02-03 09:35:36,158 - cat_to_num_Techniques - INFO - Before X_test:      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+2026-02-03 09:35:36,165 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,173 - cat_to_num_Techniques - INFO - After X_train:       Dependents_0  Dependents_1
+2142             0             1
+1623             1             0
+6074             1             0
+1362             1             0
+6754             0             1
+2026-02-03 09:35:36,176 - cat_to_num_Techniques - INFO - After X_test:       Dependents_0  Dependents_1
+185              1             0
+2715             1             0
+3825             0             1
+1807             1             0
+132              1             0
+2026-02-03 09:35:36,177 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,180 - cat_to_num_Techniques - INFO - Before X_train:      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+2026-02-03 09:35:36,183 - cat_to_num_Techniques - INFO - Before X_test:      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+2026-02-03 09:35:36,183 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,186 - cat_to_num_Techniques - INFO - After X_train:      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+2026-02-03 09:35:36,188 - cat_to_num_Techniques - INFO - After X_test:      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+2026-02-03 09:35:36,188 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,192 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,195 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,195 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,202 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      Dependents
+2142        Yes
+1623         No
+6074         No
+1362         No
+6754        Yes
+...         ...
+3772         No
+5191        Yes
+5226        Yes
+5390         No
+860          No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,204 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      Dependents
+185          No
+2715         No
+3825        Yes
+1807         No
+132          No
+...         ...
+6366         No
+315         Yes
+2439        Yes
+5002        Yes
+1161        Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,204 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,212 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,214 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,214 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,221 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,224 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,224 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,230 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,234 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,235 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,239 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,244 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,244 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to positional indexers are out-of-bounds
+2026-02-03 09:35:36,245 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,248 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,252 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,254 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,257 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,261 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,261 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,264 - cat_to_num_Techniques - INFO - Before X_train:      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+2026-02-03 09:35:36,268 - cat_to_num_Techniques - INFO - Before X_test:      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+2026-02-03 09:35:36,277 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,285 - cat_to_num_Techniques - INFO - After X_train:       PhoneService_0  PhoneService_1
+2142               0               1
+1623               0               1
+6074               1               0
+1362               0               1
+6754               0               1
+2026-02-03 09:35:36,287 - cat_to_num_Techniques - INFO - After X_test:       PhoneService_0  PhoneService_1
+185                1               0
+2715               0               1
+3825               0               1
+1807               0               1
+132                0               1
+2026-02-03 09:35:36,287 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,292 - cat_to_num_Techniques - INFO - Before X_train:      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+2026-02-03 09:35:36,295 - cat_to_num_Techniques - INFO - Before X_test:      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+2026-02-03 09:35:36,295 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,298 - cat_to_num_Techniques - INFO - After X_train:      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+2026-02-03 09:35:36,300 - cat_to_num_Techniques - INFO - After X_test:      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+2026-02-03 09:35:36,301 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,303 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,307 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,307 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,313 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      PhoneService
+2142          Yes
+1623          Yes
+6074           No
+1362          Yes
+6754          Yes
+...           ...
+3772          Yes
+5191          Yes
+5226          Yes
+5390          Yes
+860           Yes
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,316 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      PhoneService
+185            No
+2715          Yes
+3825          Yes
+1807          Yes
+132           Yes
+...           ...
+6366          Yes
+315           Yes
+2439          Yes
+5002           No
+1161           No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,316 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,322 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,326 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,327 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,332 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,334 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,334 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,340 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,344 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,346 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,349 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,351 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,351 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:36,351 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,357 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,359 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,359 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,364 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,367 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,367 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,370 - cat_to_num_Techniques - INFO - Before X_train:          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+2026-02-03 09:35:36,373 - cat_to_num_Techniques - INFO - Before X_test:          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+2026-02-03 09:35:36,405 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,414 - cat_to_num_Techniques - INFO - After X_train:       MultipleLines_0  MultipleLines_1
+2142                0                1
+1623                1                0
+6074                1                1
+1362                0                1
+6754                1                0
+2026-02-03 09:35:36,424 - cat_to_num_Techniques - INFO - After X_test:       MultipleLines_0  MultipleLines_1
+185                 1                1
+2715                1                0
+3825                0                1
+1807                0                1
+132                 0                1
+2026-02-03 09:35:36,424 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,433 - cat_to_num_Techniques - INFO - Before X_train:          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+2026-02-03 09:35:36,439 - cat_to_num_Techniques - INFO - Before X_test:          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+2026-02-03 09:35:36,439 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,448 - cat_to_num_Techniques - INFO - After X_train:          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+2026-02-03 09:35:36,457 - cat_to_num_Techniques - INFO - After X_test:          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+2026-02-03 09:35:36,460 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,466 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,474 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,486 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,495 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of          MultipleLines
+2142                No
+1623               Yes
+6074  No phone service
+1362                No
+6754               Yes
+...                ...
+3772                No
+5191               Yes
+5226                No
+5390               Yes
+860                 No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,497 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of          MultipleLines
+185   No phone service
+2715               Yes
+3825                No
+1807                No
+132                 No
+...                ...
+6366                No
+315                Yes
+2439                No
+5002  No phone service
+1161  No phone service
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,508 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,518 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,529 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,536 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,545 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,555 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,558 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,565 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,578 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,584 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,594 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,604 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,605 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:36,607 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,618 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,628 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,631 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,644 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,654 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,658 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,667 - cat_to_num_Techniques - INFO - Before X_train:      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+2026-02-03 09:35:36,674 - cat_to_num_Techniques - INFO - Before X_test:      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+2026-02-03 09:35:36,714 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,724 - cat_to_num_Techniques - INFO - After X_train:       InternetService_0  InternetService_1
+2142                  0                  1
+1623                  1                  0
+6074                  0                  1
+1362                  1                  0
+6754                  0                  1
+2026-02-03 09:35:36,734 - cat_to_num_Techniques - INFO - After X_test:       InternetService_0  InternetService_1
+185                   0                  1
+2715                  1                  1
+3825                  1                  1
+1807                  1                  0
+132                   0                  1
+2026-02-03 09:35:36,737 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,748 - cat_to_num_Techniques - INFO - Before X_train:      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+2026-02-03 09:35:36,756 - cat_to_num_Techniques - INFO - Before X_test:      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+2026-02-03 09:35:36,762 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,767 - cat_to_num_Techniques - INFO - After X_train:       InternetService
+2142                1
+1623                2
+6074                1
+1362                2
+6754                1
+2026-02-03 09:35:36,770 - cat_to_num_Techniques - INFO - After X_test:       InternetService
+185                 1
+2715                0
+3825                0
+1807                2
+132                 1
+2026-02-03 09:35:36,770 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,780 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,789 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,794 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,801 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      InternetService
+2142             DSL
+1623     Fiber optic
+6074             DSL
+1362     Fiber optic
+6754             DSL
+...              ...
+3772     Fiber optic
+5191             DSL
+5226              No
+5390     Fiber optic
+860               No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,808 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      InternetService
+185              DSL
+2715              No
+3825              No
+1807     Fiber optic
+132              DSL
+...              ...
+6366             DSL
+315      Fiber optic
+2439              No
+5002             DSL
+1161             DSL
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,810 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,819 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,828 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,836 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:36,843 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,850 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,850 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:36,859 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,866 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,869 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:36,876 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,881 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,882 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:36,882 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:36,887 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,890 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,890 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:36,896 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,899 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,899 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:36,903 - cat_to_num_Techniques - INFO - Before X_train:      OnlineSecurity
+2142            Yes
+1623             No
+6074             No
+1362             No
+6754            Yes
+2026-02-03 09:35:36,906 - cat_to_num_Techniques - INFO - Before X_test:            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:36,924 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:36,928 - cat_to_num_Techniques - INFO - After X_train:       OnlineSecurity_0  OnlineSecurity_1
+2142                 0                 1
+1623                 1                 0
+6074                 1                 0
+1362                 1                 0
+6754                 0                 1
+2026-02-03 09:35:36,937 - cat_to_num_Techniques - INFO - After X_test:       OnlineSecurity_0  OnlineSecurity_1
+185                  1                 0
+2715                 1                 1
+3825                 1                 1
+1807                 1                 0
+132                  1                 0
+2026-02-03 09:35:36,947 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:36,956 - cat_to_num_Techniques - INFO - Before X_train:      OnlineSecurity
+2142            Yes
+1623             No
+6074             No
+1362             No
+6754            Yes
+2026-02-03 09:35:36,959 - cat_to_num_Techniques - INFO - Before X_test:            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:36,959 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:36,969 - cat_to_num_Techniques - INFO - After X_train:      OnlineSecurity
+2142            Yes
+1623             No
+6074             No
+1362             No
+6754            Yes
+2026-02-03 09:35:36,978 - cat_to_num_Techniques - INFO - After X_test:            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:36,978 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:36,987 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:36,998 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:36,998 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,017 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of            OnlineSecurity
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,019 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of            OnlineSecurity
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,029 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,038 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,048 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,049 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,060 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,068 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,068 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,078 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,088 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,095 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,098 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,110 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,110 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,110 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,118 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,128 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,139 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:37,145 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,151 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,151 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:37,159 - cat_to_num_Techniques - INFO - Before X_train:      OnlineBackup
+2142           No
+1623          Yes
+6074           No
+1362           No
+6754          Yes
+2026-02-03 09:35:37,169 - cat_to_num_Techniques - INFO - Before X_test:              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,200 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:37,209 - cat_to_num_Techniques - INFO - After X_train:       OnlineBackup_0  OnlineBackup_1
+2142               0               1
+1623               1               0
+6074               0               1
+1362               0               1
+6754               1               0
+2026-02-03 09:35:37,216 - cat_to_num_Techniques - INFO - After X_test:       OnlineBackup_0  OnlineBackup_1
+185                0               1
+2715               1               1
+3825               1               1
+1807               0               1
+132                0               1
+2026-02-03 09:35:37,219 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:37,224 - cat_to_num_Techniques - INFO - Before X_train:      OnlineBackup
+2142           No
+1623          Yes
+6074           No
+1362           No
+6754          Yes
+2026-02-03 09:35:37,231 - cat_to_num_Techniques - INFO - Before X_test:              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,231 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:37,238 - cat_to_num_Techniques - INFO - After X_train:      OnlineBackup
+2142           No
+1623          Yes
+6074           No
+1362           No
+6754          Yes
+2026-02-03 09:35:37,243 - cat_to_num_Techniques - INFO - After X_test:              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,243 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,254 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,264 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,272 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,283 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of              OnlineBackup
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,292 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of              OnlineBackup
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                  Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,298 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,307 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,317 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,325 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,335 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,345 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,345 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,355 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,367 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,374 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,384 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,394 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,395 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,396 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,405 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,417 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,422 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:37,433 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,444 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,448 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:37,457 - cat_to_num_Techniques - INFO - Before X_train:      DeviceProtection
+2142              Yes
+1623               No
+6074               No
+1362               No
+6754               No
+2026-02-03 09:35:37,468 - cat_to_num_Techniques - INFO - Before X_test:          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+2026-02-03 09:35:37,512 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:37,522 - cat_to_num_Techniques - INFO - After X_train:       DeviceProtection_0  DeviceProtection_1
+2142                   0                   1
+1623                   1                   0
+6074                   1                   0
+1362                   1                   0
+6754                   1                   0
+2026-02-03 09:35:37,532 - cat_to_num_Techniques - INFO - After X_test:       DeviceProtection_0  DeviceProtection_1
+185                    1                   0
+2715                   1                   1
+3825                   1                   1
+1807                   0                   1
+132                    1                   0
+2026-02-03 09:35:37,532 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:37,545 - cat_to_num_Techniques - INFO - Before X_train:      DeviceProtection
+2142              Yes
+1623               No
+6074               No
+1362               No
+6754               No
+2026-02-03 09:35:37,550 - cat_to_num_Techniques - INFO - Before X_test:          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+2026-02-03 09:35:37,550 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:37,561 - cat_to_num_Techniques - INFO - After X_train:      DeviceProtection
+2142              Yes
+1623               No
+6074               No
+1362               No
+6754               No
+2026-02-03 09:35:37,561 - cat_to_num_Techniques - INFO - After X_test:          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+2026-02-03 09:35:37,570 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,579 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,582 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,594 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,602 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of          DeviceProtection
+2142                  Yes
+1623                   No
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,609 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of          DeviceProtection
+185                    No
+2715  No internet service
+3825  No internet service
+1807                  Yes
+132                    No
+...                   ...
+6366                  Yes
+315                    No
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,612 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,623 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,625 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,632 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,641 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,642 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,642 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,652 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,657 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,661 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,665 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,672 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,672 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,673 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,678 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,682 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,682 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:37,691 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,695 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,695 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:37,698 - cat_to_num_Techniques - INFO - Before X_train:      TechSupport
+2142          No
+1623          No
+6074          No
+1362          No
+6754         Yes
+2026-02-03 09:35:37,702 - cat_to_num_Techniques - INFO - Before X_test:               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+2026-02-03 09:35:37,713 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:37,719 - cat_to_num_Techniques - INFO - After X_train:       TechSupport_0  TechSupport_1
+2142              0              1
+1623              0              1
+6074              0              1
+1362              0              1
+6754              1              0
+2026-02-03 09:35:37,722 - cat_to_num_Techniques - INFO - After X_test:       TechSupport_0  TechSupport_1
+185               0              1
+2715              1              1
+3825              1              1
+1807              0              1
+132               1              0
+2026-02-03 09:35:37,722 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:37,725 - cat_to_num_Techniques - INFO - Before X_train:      TechSupport
+2142          No
+1623          No
+6074          No
+1362          No
+6754         Yes
+2026-02-03 09:35:37,728 - cat_to_num_Techniques - INFO - Before X_test:               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+2026-02-03 09:35:37,728 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:37,731 - cat_to_num_Techniques - INFO - After X_train:      TechSupport
+2142          No
+1623          No
+6074          No
+1362          No
+6754         Yes
+2026-02-03 09:35:37,734 - cat_to_num_Techniques - INFO - After X_test:               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+2026-02-03 09:35:37,734 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,738 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,740 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,744 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,746 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of               TechSupport
+2142                   No
+1623                   No
+6074                   No
+1362                   No
+6754                  Yes
+...                   ...
+3772                   No
+5191                  Yes
+5226  No internet service
+5390                   No
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,749 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of               TechSupport
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                   Yes
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,751 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,754 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,757 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,757 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,763 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,766 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,766 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,770 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,773 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,773 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,777 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,780 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,780 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,782 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,783 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,787 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,787 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:37,792 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,795 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,795 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:37,798 - cat_to_num_Techniques - INFO - Before X_train:      StreamingTV
+2142          No
+1623         Yes
+6074          No
+1362          No
+6754          No
+2026-02-03 09:35:37,800 - cat_to_num_Techniques - INFO - Before X_test:               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,812 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:37,815 - cat_to_num_Techniques - INFO - After X_train:       StreamingTV_0  StreamingTV_1
+2142              0              1
+1623              1              0
+6074              0              1
+1362              0              1
+6754              0              1
+2026-02-03 09:35:37,817 - cat_to_num_Techniques - INFO - After X_test:       StreamingTV_0  StreamingTV_1
+185               0              1
+2715              1              1
+3825              1              1
+1807              0              1
+132               0              1
+2026-02-03 09:35:37,817 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:37,821 - cat_to_num_Techniques - INFO - Before X_train:      StreamingTV
+2142          No
+1623         Yes
+6074          No
+1362          No
+6754          No
+2026-02-03 09:35:37,824 - cat_to_num_Techniques - INFO - Before X_test:               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,824 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:37,826 - cat_to_num_Techniques - INFO - After X_train:      StreamingTV
+2142          No
+1623         Yes
+6074          No
+1362          No
+6754          No
+2026-02-03 09:35:37,829 - cat_to_num_Techniques - INFO - After X_test:               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,830 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,834 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,837 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,837 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,842 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of               StreamingTV
+2142                   No
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,845 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of               StreamingTV
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                   No
+315                   Yes
+2439  No internet service
+5002                   No
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,845 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,851 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,855 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,857 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,861 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,865 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,866 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,868 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,873 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,876 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,879 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,883 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,884 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,885 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,888 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,891 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,894 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:37,897 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,900 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,900 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:37,905 - cat_to_num_Techniques - INFO - Before X_train:      StreamingMovies
+2142             Yes
+1623             Yes
+6074              No
+1362              No
+6754              No
+2026-02-03 09:35:37,908 - cat_to_num_Techniques - INFO - Before X_test:           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,916 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:37,924 - cat_to_num_Techniques - INFO - After X_train:       StreamingMovies_0  StreamingMovies_1
+2142                  0                  1
+1623                  0                  1
+6074                  1                  0
+1362                  1                  0
+6754                  1                  0
+2026-02-03 09:35:37,926 - cat_to_num_Techniques - INFO - After X_test:       StreamingMovies_0  StreamingMovies_1
+185                   1                  0
+2715                  1                  1
+3825                  1                  1
+1807                  1                  0
+132                   1                  0
+2026-02-03 09:35:37,926 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:37,930 - cat_to_num_Techniques - INFO - Before X_train:      StreamingMovies
+2142             Yes
+1623             Yes
+6074              No
+1362              No
+6754              No
+2026-02-03 09:35:37,933 - cat_to_num_Techniques - INFO - Before X_test:           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,934 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:37,936 - cat_to_num_Techniques - INFO - After X_train:      StreamingMovies
+2142             Yes
+1623             Yes
+6074              No
+1362              No
+6754              No
+2026-02-03 09:35:37,939 - cat_to_num_Techniques - INFO - After X_test:           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+2026-02-03 09:35:37,939 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,943 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,946 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,947 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,952 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of           StreamingMovies
+2142                  Yes
+1623                  Yes
+6074                   No
+1362                   No
+6754                   No
+...                   ...
+3772                  Yes
+5191                  Yes
+5226  No internet service
+5390                  Yes
+860   No internet service
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,956 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of           StreamingMovies
+185                    No
+2715  No internet service
+3825  No internet service
+1807                   No
+132                    No
+...                   ...
+6366                  Yes
+315                   Yes
+2439  No internet service
+5002                  Yes
+1161                   No
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,957 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:37,961 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,964 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,966 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:37,971 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,974 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,975 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:37,977 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,982 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,985 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:37,987 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:37,992 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:37,992 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:37,993 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:37,996 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,000 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,002 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:38,006 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,009 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,011 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:38,014 - cat_to_num_Techniques - INFO - Before X_train:             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+2026-02-03 09:35:38,017 - cat_to_num_Techniques - INFO - Before X_test:             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+2026-02-03 09:35:38,027 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:38,034 - cat_to_num_Techniques - INFO - After X_train:       Contract_0  Contract_1
+2142           0           1
+1623           1           0
+6074           1           1
+1362           1           1
+6754           1           0
+2026-02-03 09:35:38,037 - cat_to_num_Techniques - INFO - After X_test:       Contract_0  Contract_1
+185            1           1
+2715           1           1
+3825           1           0
+1807           1           1
+132            1           0
+2026-02-03 09:35:38,037 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:38,041 - cat_to_num_Techniques - INFO - Before X_train:             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+2026-02-03 09:35:38,044 - cat_to_num_Techniques - INFO - Before X_test:             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+2026-02-03 09:35:38,046 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:38,047 - cat_to_num_Techniques - INFO - After X_train:       Contract
+2142         1
+1623         2
+6074         0
+1362         0
+6754         2
+2026-02-03 09:35:38,051 - cat_to_num_Techniques - INFO - After X_test:       Contract
+185          0
+2715         0
+3825         2
+1807         0
+132          2
+2026-02-03 09:35:38,052 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:38,056 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,059 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,062 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:38,066 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of             Contract
+2142        One year
+1623        Two year
+6074  Month-to-month
+1362  Month-to-month
+6754        Two year
+...              ...
+3772  Month-to-month
+5191        Two year
+5226  Month-to-month
+5390  Month-to-month
+860         One year
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,070 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of             Contract
+185   Month-to-month
+2715  Month-to-month
+3825        Two year
+1807  Month-to-month
+132         Two year
+...              ...
+6366        Two year
+315         One year
+2439        One year
+5002        Two year
+1161  Month-to-month
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,070 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:38,076 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,077 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,077 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:38,086 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,089 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,089 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:38,094 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,098 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,098 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:38,102 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,107 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,107 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to positional indexers are out-of-bounds
+2026-02-03 09:35:38,108 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:38,112 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,115 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,117 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:38,121 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,124 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,125 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:38,128 - cat_to_num_Techniques - INFO - Before X_train:      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+2026-02-03 09:35:38,130 - cat_to_num_Techniques - INFO - Before X_test:      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+2026-02-03 09:35:38,138 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:38,150 - cat_to_num_Techniques - INFO - After X_train:       PaperlessBilling_0  PaperlessBilling_1
+2142                   0                   1
+1623                   1                   0
+6074                   1                   0
+1362                   1                   0
+6754                   1                   0
+2026-02-03 09:35:38,159 - cat_to_num_Techniques - INFO - After X_test:       PaperlessBilling_0  PaperlessBilling_1
+185                    1                   0
+2715                   1                   0
+3825                   0                   1
+1807                   0                   1
+132                    0                   1
+2026-02-03 09:35:38,162 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:38,170 - cat_to_num_Techniques - INFO - Before X_train:      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+2026-02-03 09:35:38,178 - cat_to_num_Techniques - INFO - Before X_test:      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+2026-02-03 09:35:38,179 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:38,187 - cat_to_num_Techniques - INFO - After X_train:      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+2026-02-03 09:35:38,195 - cat_to_num_Techniques - INFO - After X_test:      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+2026-02-03 09:35:38,196 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:38,207 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,217 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,225 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:38,236 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of      PaperlessBilling
+2142               No
+1623              Yes
+6074              Yes
+1362              Yes
+6754              Yes
+...               ...
+3772              Yes
+5191              Yes
+5226              Yes
+5390              Yes
+860                No
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,246 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of      PaperlessBilling
+185               Yes
+2715              Yes
+3825               No
+1807               No
+132                No
+...               ...
+6366              Yes
+315                No
+2439               No
+5002              Yes
+1161              Yes
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,253 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:38,261 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,273 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,282 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:38,292 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,303 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,306 - cat_to_num_Techniques - INFO - one_hot_encoding started
+2026-02-03 09:35:38,317 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,327 - cat_to_num_Techniques - INFO - Before one_hot_encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,329 - cat_to_num_Techniques - INFO - one_hot_encoding completed
+2026-02-03 09:35:38,345 - cat_to_num_Techniques - INFO - After one_hot_encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,355 - cat_to_num_Techniques - INFO - After one_hot_encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,356 - cat_to_num_Techniques - INFO - Error in Line no : 57 : due to DataFrame indexer is not allowed for .iloc
+Consider using .loc for automatic alignment.
+2026-02-03 09:35:38,360 - cat_to_num_Techniques - INFO - frequency_encoding started
+2026-02-03 09:35:38,371 - cat_to_num_Techniques - INFO - Before frequency_encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,382 - cat_to_num_Techniques - INFO - Before frequency_encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,387 - cat_to_num_Techniques - INFO - frequency_encoding completed
+2026-02-03 09:35:38,398 - cat_to_num_Techniques - INFO - After frequency_encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,407 - cat_to_num_Techniques - INFO - After frequency_encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,412 - cat_to_num_Techniques - DEBUG - Binary Encoding
+2026-02-03 09:35:38,420 - cat_to_num_Techniques - INFO - Before X_train:                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+2026-02-03 09:35:38,429 - cat_to_num_Techniques - INFO - Before X_test:                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+2026-02-03 09:35:38,471 - cat_to_num_Techniques - DEBUG - After Binary Encoding
+2026-02-03 09:35:38,478 - cat_to_num_Techniques - INFO - After X_train:       PaymentMethod_0  PaymentMethod_1  PaymentMethod_2
+2142                0                0                1
+1623                0                1                0
+6074                0                1                1
+1362                0                1                1
+6754                0                1                0
+2026-02-03 09:35:38,496 - cat_to_num_Techniques - INFO - After X_test:       PaymentMethod_0  PaymentMethod_1  PaymentMethod_2
+185                 0                1                1
+2715                0                1                0
+3825                0                0                1
+1807                0                1                1
+132                 0                1                0
+2026-02-03 09:35:38,500 - cat_to_num_Techniques - DEBUG - Ordinal Encoding
+2026-02-03 09:35:38,508 - cat_to_num_Techniques - INFO - Before X_train:                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+2026-02-03 09:35:38,514 - cat_to_num_Techniques - INFO - Before X_test:                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+2026-02-03 09:35:38,522 - cat_to_num_Techniques - DEBUG - After Ordinal Encoding
+2026-02-03 09:35:38,532 - cat_to_num_Techniques - INFO - After X_train:       PaymentMethod
+2142            1.0
+1623            2.0
+6074            0.0
+1362            0.0
+6754            2.0
+2026-02-03 09:35:38,542 - cat_to_num_Techniques - INFO - After X_test:       PaymentMethod
+185             0.0
+2715            2.0
+3825            1.0
+1807            0.0
+132             2.0
+2026-02-03 09:35:38,545 - cat_to_num_Techniques - INFO - Label Encoding started
+2026-02-03 09:35:38,549 - cat_to_num_Techniques - INFO - Before Label Encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,562 - cat_to_num_Techniques - INFO - Before Label Encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>
+2026-02-03 09:35:38,570 - cat_to_num_Techniques - INFO - Label Encoding completed
+2026-02-03 09:35:38,580 - cat_to_num_Techniques - INFO - After Label Encoding X_train: <bound method NDFrame.tail of                   PaymentMethod
+2142               Mailed check
+1623  Bank transfer (automatic)
+6074           Electronic check
+1362           Electronic check
+6754  Bank transfer (automatic)
+...                         ...
+3772           Electronic check
+5191    Credit card (automatic)
+5226           Electronic check
+5390           Electronic check
+860     Credit card (automatic)
+
+[5634 rows x 1 columns]>
+2026-02-03 09:35:38,593 - cat_to_num_Techniques - INFO - After Label Encoding X_test: <bound method NDFrame.tail of                   PaymentMethod
+185            Electronic check
+2715  Bank transfer (automatic)
+3825               Mailed check
+1807           Electronic check
+132   Bank transfer (automatic)
+...                         ...
+6366               Mailed check
+315     Credit card (automatic)
+2439  Bank transfer (automatic)
+5002    Credit card (automatic)
+1161               Mailed check
+
+[1409 rows x 1 columns]>

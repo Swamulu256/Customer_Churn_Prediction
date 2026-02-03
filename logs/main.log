@@ -1,0 +1,272 @@
+2026-02-03 09:31:15,828 - main - INFO - Data loaded Successfully
+2026-02-03 09:31:15,828 - main - INFO - we have : 7043 Rows and 22 Columns
+2026-02-03 09:31:15,828 - main - INFO - 
+ telecom_partner     0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+2026-02-03 09:31:15,828 - main - INFO - 
+telecom_partner      object
+gender               object
+SeniorCitizen         int64
+Partner              object
+Dependents           object
+tenure                int64
+PhoneService         object
+MultipleLines        object
+InternetService      object
+OnlineSecurity       object
+OnlineBackup         object
+DeviceProtection     object
+TechSupport          object
+StreamingTV          object
+StreamingMovies      object
+Contract             object
+PaperlessBilling     object
+PaymentMethod        object
+MonthlyCharges      float64
+TotalCharges        float64
+Churn                 int64
+dtype: object
+2026-02-03 09:31:15,844 - main - INFO - Training Data Size : 5634 Rows and 20 Columns
+2026-02-03 09:31:15,844 - main - INFO - Test Data Size : 1409 Rows and 20 Columns
+2026-02-03 09:35:33,968 - main - INFO - Before missing values X_train: telecom_partner      0
+gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        10
+dtype: int64
+2026-02-03 09:35:33,972 - main - INFO - Before missing values X_test : telecom_partner     0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        1
+dtype: int64
+2026-02-03 09:35:33,972 - main - INFO - Starting Missing Value Handling (After Split)
+2026-02-03 09:35:34,031 - main - INFO - Best imputation for TotalCharges: mode
+2026-02-03 09:35:34,031 - main - INFO - Missing Value Handling Completed
+2026-02-03 09:35:34,038 - main - INFO - Train missing after:
+telecom_partner     0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+dtype: int64
+2026-02-03 09:35:34,039 - main - INFO - Test missing after:
+telecom_partner     0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+dtype: int64
+2026-02-03 09:35:34,040 - main - INFO - Starting Variable Transformation Selection
+2026-02-03 09:35:34,043 - main - INFO - Numerical Columns: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
+2026-02-03 09:35:34,043 - main - INFO - Categorical Columns: ['telecom_partner', 'gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod']
+2026-02-03 09:35:34,043 - main - INFO - Evaluating transformations for column: SeniorCitizen
+2026-02-03 09:35:34,302 - main - INFO - Best transformation for SeniorCitizen: log (Skew: 1.8467)
+2026-02-03 09:35:34,302 - main - INFO - Evaluating transformations for column: tenure
+2026-02-03 09:35:34,531 - main - INFO - Best transformation for tenure: robust (Skew: 0.2399)
+2026-02-03 09:35:34,531 - main - INFO - Evaluating transformations for column: MonthlyCharges
+2026-02-03 09:35:34,879 - main - INFO - Best transformation for MonthlyCharges: quantile (Skew: 0.0195)
+2026-02-03 09:35:34,879 - main - INFO - Evaluating transformations for column: TotalCharges
+2026-02-03 09:35:35,498 - main - INFO - Best transformation for TotalCharges: quantile (Skew: 0.0039)
+2026-02-03 09:35:35,498 - main - INFO - Variable Transformation Completed Successfully
+2026-02-03 09:35:35,507 - main - INFO - Starting Outlier Handling Selection
+2026-02-03 09:35:35,511 - main - INFO - Evaluating outliers for column: SeniorCitizen
+2026-02-03 09:35:35,511 - main - INFO - Outliers before: 906
+2026-02-03 09:35:35,529 - main - INFO - Technique: winsor | Outliers after: 0
+2026-02-03 09:35:35,538 - main - INFO - Technique: robust | Outliers after: 906
+2026-02-03 09:35:35,548 - main - INFO - Technique: log | Outliers after: 906
+2026-02-03 09:35:35,548 - main - INFO - Technique: none | Outliers after: 906
+2026-02-03 09:35:35,562 - main - INFO - Best outlier technique for SeniorCitizen: winsor 
+ (Outliers left: 0)
+2026-02-03 09:35:35,562 - main - INFO - Evaluating outliers for column: tenure
+2026-02-03 09:35:35,563 - main - INFO - Outliers before: 0
+2026-02-03 09:35:35,572 - main - INFO - Technique: winsor | Outliers after: 0
+2026-02-03 09:35:35,579 - main - INFO - Technique: robust | Outliers after: 0
+2026-02-03 09:35:35,582 - main - INFO - Technique: log | Outliers after: 0
+2026-02-03 09:35:35,582 - main - INFO - Technique: none | Outliers after: 0
+2026-02-03 09:35:35,589 - main - INFO - Best outlier technique for tenure: winsor 
+ (Outliers left: 0)
+2026-02-03 09:35:35,590 - main - INFO - Evaluating outliers for column: MonthlyCharges
+2026-02-03 09:35:35,591 - main - INFO - Outliers before: 39
+2026-02-03 09:35:35,597 - main - INFO - Technique: winsor | Outliers after: 0
+2026-02-03 09:35:35,600 - main - INFO - Technique: robust | Outliers after: 39
+2026-02-03 09:35:35,600 - main - INFO - Technique: log | Outliers after: 39
+2026-02-03 09:35:35,600 - main - INFO - Technique: none | Outliers after: 39
+2026-02-03 09:35:35,612 - main - INFO - Best outlier technique for MonthlyCharges: winsor 
+ (Outliers left: 0)
+2026-02-03 09:35:35,612 - main - INFO - Evaluating outliers for column: TotalCharges
+2026-02-03 09:35:35,612 - main - INFO - Outliers before: 37
+2026-02-03 09:35:35,620 - main - INFO - Technique: winsor | Outliers after: 0
+2026-02-03 09:35:35,635 - main - INFO - Technique: robust | Outliers after: 37
+2026-02-03 09:35:35,641 - main - INFO - Technique: log | Outliers after: 37
+2026-02-03 09:35:35,649 - main - INFO - Technique: none | Outliers after: 37
+2026-02-03 09:35:35,661 - main - INFO - Best outlier technique for TotalCharges: winsor 
+ (Outliers left: 0)
+2026-02-03 09:35:35,663 - main - INFO - Outlier Handling Completed Successfully
+2026-02-03 09:35:35,663 - main - INFO - Starting Encoding Cat to Num Transformation
+2026-02-03 09:35:35,894 - main - INFO - Best encoding for telecom_partner: label
+2026-02-03 09:35:35,997 - main - INFO - Best encoding for gender: label
+2026-02-03 09:35:36,088 - main - INFO - Best encoding for Partner: label
+2026-02-03 09:35:36,188 - main - INFO - Best encoding for Dependents: label
+2026-02-03 09:35:36,300 - main - INFO - Best encoding for PhoneService: label
+2026-02-03 09:35:36,458 - main - INFO - Best encoding for MultipleLines: label
+2026-02-03 09:35:36,770 - main - INFO - Best encoding for InternetService: label
+2026-02-03 09:35:36,978 - main - INFO - Best encoding for OnlineSecurity: label
+2026-02-03 09:35:37,243 - main - INFO - Best encoding for OnlineBackup: label
+2026-02-03 09:35:37,561 - main - INFO - Best encoding for DeviceProtection: label
+2026-02-03 09:35:37,734 - main - INFO - Best encoding for TechSupport: label
+2026-02-03 09:35:37,829 - main - INFO - Best encoding for StreamingTV: label
+2026-02-03 09:35:37,939 - main - INFO - Best encoding for StreamingMovies: label
+2026-02-03 09:35:38,051 - main - INFO - Best encoding for Contract: label
+2026-02-03 09:35:38,195 - main - INFO - Best encoding for PaperlessBilling: label
+2026-02-03 09:35:38,542 - main - INFO - Best encoding for PaymentMethod: label
+2026-02-03 09:35:38,599 - main - INFO - Encoding completed. X_train shape: (5634, 20) 
+2026-02-03 09:35:38,599 - main - INFO - Starting Feature Selection
+2026-02-03 09:35:38,599 - main - INFO - Trying variance feature selection
+2026-02-03 09:35:38,610 - main - ERROR - Error in line 387: min() arg is an empty sequence
+2026-02-03 09:35:38,610 - main - INFO - Selecting Data Balancing Technique (ROW-WISE)
+2026-02-03 09:35:38,620 - main - INFO - Before Balancing - Churn Distribution:
+Churn
+0    4138
+1    1496
+Name: count, dtype: int64
+2026-02-03 09:35:38,620 - main - INFO - Applying none balancing
+2026-02-03 09:35:38,888 - main - INFO - none F1 score: 0.586
+2026-02-03 09:35:38,888 - main - INFO - Applying ros balancing
+2026-02-03 09:35:39,194 - main - INFO - ros F1 score: 0.773
+2026-02-03 09:35:39,194 - main - INFO - Applying rus balancing
+2026-02-03 09:35:39,416 - main - INFO - rus F1 score: 0.7698
+2026-02-03 09:35:39,416 - main - INFO - Applying smote balancing
+2026-02-03 09:35:45,432 - main - INFO - smote F1 score: 0.7889
+2026-02-03 09:35:45,432 - main - INFO - Applying smote_tomek balancing
+2026-02-03 09:35:45,738 - main - INFO - smote_tomek F1 score: 0.7968
+2026-02-03 09:35:45,738 - main - INFO - Applying smote_enn balancing
+2026-02-03 09:35:46,030 - main - INFO - smote_enn F1 score: 0.9203
+2026-02-03 09:35:46,030 - main - INFO - Best Balancing Method Selected: smote_enn
+2026-02-03 09:35:46,262 - main - INFO - After Balancing (smote_enn) - Churn Distribution:
+Churn
+1    3072
+0    2211
+Name: count, dtype: int64
+2026-02-03 09:35:46,262 - main - INFO - Balanced X_train shape: (5283, 20) | Balanced y_train shape: (5283,)
+2026-02-03 09:35:46,262 - main - INFO - selecting Best Feature Scaling Method
+2026-02-03 09:35:46,321 - main - INFO - standard F1 score: 0.9204
+2026-02-03 09:35:46,398 - main - INFO - minmax F1 score: 0.9141
+2026-02-03 09:35:46,545 - main - INFO - robust F1 score: 0.9207
+2026-02-03 09:35:46,761 - main - INFO - maxabs F1 score: 0.9175
+2026-02-03 09:35:46,890 - main - INFO - normalizer F1 score: 0.9153
+2026-02-03 09:35:46,891 - main - INFO - Best Feature Scaling Method Selected: robust
+2026-02-03 09:35:46,921 - main - INFO - Feature scaling applied successfully
+2026-02-03 09:35:46,924 - main - INFO - X_train columns : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'telecom_partner', 'gender', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod'],
+      dtype='object')
+2026-02-03 09:35:46,925 - main - INFO - X_test columns : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'telecom_partner', 'gender', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod'],
+      dtype='object')
+2026-02-03 09:35:46,925 - main - INFO - Starting Model Comparison
+2026-02-03 09:35:46,925 - main - INFO - Training KNN
+2026-02-03 09:35:47,020 - main - INFO - KNN ROC-AUC: 0.7993
+2026-02-03 09:37:52,887 - main - INFO - Training NaiveBayes
+2026-02-03 09:37:52,903 - main - INFO - NaiveBayes ROC-AUC: 0.836
+2026-02-03 09:40:32,974 - main - INFO - Training LogisticRegression
+2026-02-03 09:40:33,012 - main - INFO - LogisticRegression ROC-AUC: 0.8547
+2026-02-03 09:40:55,462 - main - INFO - Training DecisionTree
+2026-02-03 09:40:55,507 - main - INFO - DecisionTree ROC-AUC: 0.7396
+2026-02-03 09:41:17,964 - main - INFO - Training RandomForest
+2026-02-03 09:41:19,153 - main - INFO - RandomForest ROC-AUC: 0.8508
+2026-02-03 09:41:48,591 - main - INFO - Training SVM
+2026-02-03 09:41:52,304 - main - INFO - SVM ROC-AUC: 0.8504
+2026-02-03 09:42:26,053 - main - INFO - Training XGBoost
+2026-02-03 09:42:26,413 - main - INFO - XGBoost ROC-AUC: 0.8506
+2026-02-03 09:42:53,682 - main - INFO - =================================
+2026-02-03 09:42:53,682 - main - INFO - BEST MODEL BEFORE TUNING: LogisticRegression
+2026-02-03 09:42:53,682 - main - INFO - BEST ROC-AUC: 0.8546753858416056
+2026-02-03 09:42:53,682 - main - INFO - =================================
+2026-02-03 09:42:53,682 - main - INFO - Tuning Logistic Regression
+2026-02-03 09:43:53,647 - main - INFO - Best model saved as Best_Model.pkl
